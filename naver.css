@@ -1,0 +1,241 @@
+body > * {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    line-height: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+header{
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #e4e8eb;
+}
+.header > .special_bg{
+    position: relative;
+    height: 160px;
+    border-bottom: solid 1px #e4e8eb;
+}
+.header > .special_bg > .group_flex{
+    position: relative;
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.header > .special_bg > .group_flex > .logo_area{
+    position: relative;
+    height: 100%;
+}
+.header > .special_bg > .group_flex > .logo_area > .logo_default{
+    position: absolute;
+    top: 80px;
+    left: -9px;
+    margin-top: -32px;
+}
+.header > .special_bg > .group_flex > .logo_area > .logo_default > .logo_naver{
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-size: 444px 439px;
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+}
+.header > .special_bg > .group_flex > .service_area{
+    position: absolute;
+    right: 27px;
+    top: 12px;
+}
+.header > .special_bg > .group_flex > .service_area > .link_set{
+    float: left;
+    position: relative;
+    left: 2px;
+    vertical-align: top;
+    font-size: 11px;
+    color: #404040;
+    text-decoration: none;
+}
+.header > .special_bg > .group_flex > .service_area > .link_set > .ico_link_set{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-size: 444px 439px;
+    background-position: -373px -352px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: -3px 0 0 3px;
+    position: relative;
+    left: -4px;
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico{
+    display: inline-block;
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico > .sa_bar{
+    float: left;
+    position: relative;
+    top: 3px;
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px;
+    background-color: #e4e8eb;
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico > .link_jrnaver{
+    float: left;
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico > .link_jrnaver > .ico_jrnaver{
+    display: inline-block;
+    position: relative;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-size: 444px 439px;
+    width: 60px;
+    height: 10px;
+    margin: 3px;
+    background-position: -285px -267px;
+    background-repeat: no-repeat;
+    
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico > .link_happybin{
+    float: left;
+    margin-left: 4px;
+}
+.header > .special_bg > .group_flex > .service_area > .service_area_ico > .link_happybin > .ico_happybin{
+    display: inline-block;
+    position: relative;
+    top: 2.2px;
+    width: 38px;
+    height: 12px;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-size: 444px 439px;
+    background-position: -220px -144px;
+    background-repeat: no-repeat;
+    margin: 3px 3px 2px;
+}
+.header_search{
+    position: relative;
+    height: 100%;
+}
+.header_center > .naverstart{
+    display: inline-block;
+}
+header > .header_center{
+    position: relative;
+    width:1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.header_search > .logo_area{
+    position: absolute;
+    height: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -70px;
+}
+.header_search > .logo_area > h1{
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    margin-top: -32px;
+}
+.header_search > .logo_area > h1 > a{
+    display: block;
+}
+.header_search > .logo_area > h1 > a :before{
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+    background-size: 444px 439px;
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+}
+.header
+.header_search > .logo_area > h1 > img{
+    width: 415px;
+    height: 160px;
+}
+.header_search > .logo_area > h1 > .logo_link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 95px;
+    width: 243px;
+}
+.blind{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;    
+}
+
+.header_search > fieldset{
+    width: 586px;
+    height: 56px;
+    display: inline-block;
+}
+.naverstart{
+    position: absolute;
+    right: 27px;
+}
+
+.header_search > .searchbar{
+    position: absolute;
+    left: 268px;
+    top: 52px;
+}
+.header_search > .searchbar > form{
+    margin: 0;
+    padding: 0;
+}
+.header_search > .searchbar > form > fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.header_search > .searchbar > form > fieldset > .greenwindow {
+    width: 582px;
+    height: 52px;
+    border: solid 2px #19ce60;
+    border-radius: 2px;
+}
+.header_search > .searchbar > form > fieldset > .greenwindow > input{
+    height: 50px;
+    width: 474px;
+    margin: 1px;
+    padding: 13px 0 13px 13px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.header_search > .searchbar > form > fieldset > .btn_submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 56px;
+    background-color: #19ce60;
+    border: 0;
+}
+.header_search > .searchbar > form > fieldset > .btn_submit > .ico_search_submit{
+    background: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_57f073.png);
+
+    background-size: 444px 439px;
+    background-size: 444px 439px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -420px -208px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
