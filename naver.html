@@ -34,26 +34,105 @@
                         </div>
                 </div>
                 <div class="search_area">
-                    <h2 class="blind">검색창</h2>
-                    <div class="searchbar">
-                        <form action="">
-                            <fieldset>
-                                <legend class="blind">검색</legend>
-                                <div class="greenwindow">
-                                    <input type="text">
-                                </div>
-                                <button type="submit" class="btn_submit">
-                                    <span class="blind">검색</span>
-                                    <span class="ico_search_submit"></span>
-                                </button>
-                            </fieldset>
-                        </form>
-                    </div>
+                    <form action="https://search.naver.com/search.naver" method="get" role="search">
+                        <fieldset>
+                            <legend class="blind">검색</legend>
+                            <div class="greenwindow">
+                                <input type="text" class="input_text">
+                            </div>
+                            <button type="submit" class="btn_submit">
+                                <span class="blind">검색</span>
+                                <span class="ico_search_submit"></span>
+                            </button>
+                        </fieldset>
+                    </form>
+                    <a href="#" class="btn_keyboard">
+                        <span class="blind">한글 입력기</span>
+                        <span class="ico_keyboard"></span>
+                    </a>
                 </div>
             </div>
         </div>
-        <nav>
-            <div class="nav">
+        <div id="gnb">
+            <div class="gnb_inner">
+                <div class="group_nav">
+                    <ul class="list_nav type_fix">
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                <i class="ico_mail"></i>
+                                메일
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                카페
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                블로그
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                지식iN
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav shop">
+                                <span class="blind">쇼핑</span>
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav shopLive">
+                                <span class="blind">쇼핑Live</span>
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                Pay
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">
+                                <i class="ico_tv"></i>
+                                TV
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list_nav NM_FAVORITE_LIST">
+                        <li class="nav_item">
+                            <a href="" class="nav">사전</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">뉴스</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">증권</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">부동산</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">지도</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">VIBE</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">책</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="" class="nav">웹툰</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn_more">
+                        더보기
+                    </a>
+                </div>
+                <div class="group_weather"></div>
+            </div>
+        </div>
                 <ul>
                     <li>장점: 몰입을 잘한다, 즐길 줄 안다</li>
                     <li>메일</li>
@@ -70,8 +149,6 @@
                     <li>책</li>
                     <li>웹툰</li>
                 </ul>
-            </div>
-        </nav>
     </header>
     <div class="container">
         <main>
